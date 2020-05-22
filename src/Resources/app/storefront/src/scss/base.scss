@@ -307,11 +307,6 @@ a.product-name {
     justify-content: center;
 }
 
-.checkout-main {
-    flex:      0 0 90%;
-    max-width: 90%;
-}
-
 .cart-main-header {
     text-transform: uppercase;
     font-weight:    500;
@@ -320,13 +315,19 @@ a.product-name {
 }
 
 .col-lg-8, .is-act-cartpage .checkout .checkout-main, .is-act-checkoutregisterpage .checkout .checkout-main, .is-act-confirmpage .checkout .checkout-main, .is-act-finishpage .checkout .checkout-main {
-    max-width: 90%;
+    max-width: 100%;
     flex:      none;
+    margin-bottom: 1.5rem;
+}
+
+.col-lg-4{
+    max-width: 100%;
+    flex:      none;
+    margin-bottom: 1.5rem;
 }
 
 .cart-item-img {
     border: none;
-    height: 10rem;
 }
 
 .cart-item-label {
@@ -445,4 +446,137 @@ label.product-detail-configurator-option-label.is-combinable.is-display-media {
 // TODO disable review tab
 #review-tab {
     display: none;
+}
+
+.product-description{
+    display: none;
+}
+
+.product-price-unit{
+    display: none;
+}
+
+.product-detail-cross-selling .card{
+    margin-bottom: 1.5rem;
+}
+
+.account-menu {
+    text-transform: uppercase;
+}
+
+.login-advantages{
+    display: none;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.account-welcome{
+    text-align: center;
+}
+
+.card .account-menu-inner{
+    text-transform: uppercase;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+}
+
+.col-12{
+    text-align: center;
+}
+
+.nav-link .main-navigation-link .home-link{
+    display:none;
+}
+
+.product-detail-manufacturer-link{
+    display:none;
+}
+
+.base-slider .tns-nav .base-slider-dot, .base-slider .base-slider-dots .base-slider-dot, .base-slider .tns-nav button, .base-slider .base-slider-dots button{
+    border-radius: 0;
+}
+
+.footer-logos{
+    display:none;
+}
+
+.footerColumns{
+    border-bottom: none;
+}
+
+.cart-item-label{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.offcanvas-summary{
+    text-transform: uppercase;
+}
+
+.offcanvas-cart-actions{
+    text-transform: uppercase;
+}
+
+.offcanvas-cart-header-count{
+    font-weight: 300;
+}
+
+.btn-primary:hover, .address-editor-select:not(.collapsed):hover, .address-editor-create:not(.collapsed):hover{
+    color: #FFFFFF;
+}
+
+.card-title{
+    font-size:1rem;
+}
+
+.cart-item-label{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.custom-select{
+    border:0;
+}
+
+.checkout-aside-action{
+    text-transform: uppercase;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){
+    text-transform: uppercase;
+}
+
+.alert{
+    border-radius: 0;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.col-lg-6{
+    flex: 0 0 50%;
+    max-width: 100%;
+}
+
+.account-recover-password-back .btn .btn-outline-secondary{
+    text-transform: uppercase;
 }

@@ -87,13 +87,13 @@
                 "value": "'Raleway', sans-serif"
             },
             "sw-logo-desktop": {
-                "value": "/bundles/bastelwerkstatt/assets/images/mb-logo-small.svg"
+                "value": "/bundles/bastelwerkstatt/assets/images/logoweb.svg"
             },
             "sw-logo-tablet": {
-                "value": "/bundles/bastelwerkstatt/assets/images/mb-logo-small.svg"
+                "value": "/bundles/bastelwerkstatt/assets/images/logoweb.svg"
             },
             "sw-logo-mobile": {
-                "value": "/bundles/bastelwerkstatt/assets/images/mb-logo-small.svg"
+                "value": "/bundles/bastelwerkstatt/assets/images/logoweb.svg"
             },
             "sw-logo-favicon": {
                 "value": "app/storefront/dist/assets/logo/favicon.png"
