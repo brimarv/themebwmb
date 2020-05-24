@@ -580,3 +580,11 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 .account-recover-password-back.btn.btn-outline-secondary{
     text-transform: uppercase;
 }
+
+.nav-link.main-navigation-link.active.is-open{
+    color: #c8a1a1;
+}
+
+.footer-main{
+    border-top: 0.1px solid #000;
+}
