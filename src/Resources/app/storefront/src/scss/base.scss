@@ -52,12 +52,6 @@ body {
     padding: 10px 20px;
 }
 
-@media (min-width: 576px) {
-    .header-search-col .collapse:not(.show) {
-        display: none;
-    }
-}
-
 .nav.main-navigation-menu {
     flex-wrap:       nowrap;
     justify-content: center;
@@ -591,4 +585,8 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 
 .footer-main{
     border-top: 0.1px solid #000;
+}
+
+.d-sm-none{
+    display:block;
 }
